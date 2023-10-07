@@ -1,0 +1,73 @@
+.login-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 50%;
+  gap: 40px;
+}
+.login-left h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  gap: 20px;
+}
+.login-form ::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  border: rgba(0, 0, 0, 0.5);
+}
+
+.btn-login {
+  background-color: red;
+  padding: 12px 12rem;
+  border: none;
+  color: white;
+}
+
+.regist {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  gap: 5px;
+  color: gray;
+}
+.regist a {
+  color: red;
+  font-weight: 500;
+}
+
+.login-right {
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+}
+.login-right img {
+  width: 90%;
+}

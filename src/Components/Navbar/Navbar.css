@@ -1,0 +1,26 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.nav-logo {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-width: 70%;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu li {
+  padding: 1rem;
+}
+.nav-menu li a {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: black;
+}

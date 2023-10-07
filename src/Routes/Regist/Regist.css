@@ -1,0 +1,73 @@
+.regist-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.regist-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.regist-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 50%;
+  gap: 40px;
+}
+.regist-left h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.regist-form {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  gap: 20px;
+}
+.regist-form ::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.regist-form input {
+  margin-bottom: 1rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  border: rgba(0, 0, 0, 0.5);
+}
+
+.btn-regist {
+  background-color: red;
+  padding: 12px 12rem;
+  border: none;
+  color: white;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  gap: 5px;
+  color: gray;
+}
+.login a {
+  color: red;
+  font-weight: 500;
+}
+
+.regist-right {
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+}
+.regist-right img {
+  width: 90%;
+}

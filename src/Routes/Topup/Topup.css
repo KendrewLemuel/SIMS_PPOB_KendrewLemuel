@@ -1,0 +1,62 @@
+.top-wrapper {
+  padding: 1rem 3rem;
+}
+
+.top-bottom {
+  display: flex;
+  margin: 2rem 0;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topup-form {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  border: 1px solid black;
+  width: 55vw;
+}
+.topup-form ::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.topup-form input {
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  border: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px 10px;
+}
+
+.payment {
+  padding: 12px 24px;
+  border: none;
+  color: black;
+  border: 1px solid black;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.payment:hover {
+  transform: scale(1.1);
+}
+
+.btn-topup {
+  background-color: gray;
+  padding: 12px 12rem;
+  border: none;
+  color: white;
+}
+.btn-topup:hover {
+  background-color: red;
+}

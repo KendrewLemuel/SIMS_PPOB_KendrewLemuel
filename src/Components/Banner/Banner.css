@@ -1,0 +1,22 @@
+.banner-wrapper {
+  padding: 1rem 3rem;
+}
+
+.banner-list {
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+  align-items: center;
+}
+.banner-title {
+  padding: 1rem 3rem;
+  font-weight: 500;
+  top: 50px;
+  text-align: left;
+}
+
+.banner-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

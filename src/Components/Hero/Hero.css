@@ -1,0 +1,39 @@
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.title h4 {
+  color: black;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 5px;
+  font-weight: 600;
+}
+.hero-left img {
+  width: 65px;
+}
+.hero-right {
+  padding: 30px;
+  color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 20px;
+  width: 50%;
+  background-image: url("../../assets/Background Saldo.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.lihat-saldo {
+  cursor: pointer;
+  color: white;
+}

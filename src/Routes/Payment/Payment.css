@@ -1,0 +1,33 @@
+.transaction-wrapper {
+  padding: 1rem 3rem;
+}
+
+.transaction-content {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-transaction {
+  background-color: red;
+  padding: 12px 12rem;
+  border: none;
+  color: white;
+}
+
+.transaction-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.transaction-form form {
+  padding: 1rem 0;
+  border: rgba(0, 0, 0, 1);
+}
+
+.transaction-form input {
+  padding: 10px 18px;
+  font-size: 1.2rem;
+}
